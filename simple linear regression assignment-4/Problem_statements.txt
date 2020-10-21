@@ -1,0 +1,42 @@
+1) Calories_consumed-> predict weight gained using calories consumed
+2) Delivery_time -> Predict delivery time using sorting time 
+3) Emp_data -> Build a prediction model for Churn_out_rate 
+4) Salary_hike -> Build a prediction model for Salary_hike
+
+
+Do the necessary transformations for input variables for getting better R^2 value for the model prepared.
+
+
+answrers
+
+1)
+
++no need for transformation even after logritmic and exponential transformation rmse value is higher and r sqred value
+is lower
+
+weight gained =-625.752+0.42016(calorie consumed)
+correlation=0.946991
+multiple rsqred=0.8968
+rmse=103.3025
+
+2)
+exponential model is correct as it has rmse lower and rsqured higher than other model
+delivery time=2.12137+0.1055(sorting time)
+correlation=0.8431773
+multiple r squred=0.7109
+rmse=0.1669628
+
+3)
+polynomial model is correct
+churnouttime=6.638e+00-1.396e-03(salary hike)
+correlation=-0.925803
+rmse=0
+multiple r sqred =3.541549
+
+4)
+QUADRATIC MODEL
+COR=0.9979683
+RMSE=0
+MULTIPLE R2 =1
+
+SALARY=1.051E+01 +1.255E-01(YEARS EXPERIENCED)
